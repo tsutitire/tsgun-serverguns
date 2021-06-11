@@ -2627,7 +2627,7 @@ swordof:
         Melee_Mode: true
         Sounds_Acquired: block_enchantment_table_use-0.2-2-0,block_enchantment_table_use-0.2-0-0,entity_player_attack_sweep-1-3-2,entity_player_attack_nodamage-0-0-4
         Remove_Unused_Tag: true
-    swordof:
+swordof:
         Enable: true
         Durability_Loss_Per_Hit: 3
         Sounds_Blocked: GLASS-2-2-0
