@@ -2540,7 +2540,7 @@ rorsch:
         Enable: true
         Reload_Amount: 1
         Reload_Bullets_Individually: false
-        Reload_Duration: 60
+        Reload_Duration: 80
         Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
         Sounds_Reloading: entity_creeper_primed-4-2-10,BLOCK_IRON_DOOR_OPEN-1-1-4,BLOCK_IRON_DOOR_CLOSE-1-1-36
     Firearm_Action:
