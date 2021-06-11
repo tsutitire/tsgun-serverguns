@@ -568,8 +568,8 @@ krpg:
         Enable: true
         Explosion_No_Grief: true
         On_Impact_With_Anything: true
-        Explosion_Radius: 5
-        Damage_Multiplier: 80
+        Explosion_Radius: 2
+        Damage_Multiplier: 20
     Extras:
         One_Time_Use: false
 flashbang:
