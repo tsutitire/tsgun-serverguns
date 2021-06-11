@@ -1,4 +1,5 @@
 
+
 TS-93殲滅光線超重砲:
     Item_Information:
         Item_Name: "&4&lTS-93殲滅光線超重砲"
@@ -568,8 +569,8 @@ krpg:
         Enable: true
         Explosion_No_Grief: true
         On_Impact_With_Anything: true
-        Explosion_Radius: 5
-        Damage_Multiplier: 80
+        Explosion_Radius: 4
+        Damage_Multiplier: 70
     Extras:
         One_Time_Use: false
 flashbang:
@@ -2524,8 +2525,8 @@ yousei:
         Right_Click_To_Shoot: false
         Cancel_Left_Click_Block_Damage: true
         Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 0.6
-        Recoil_Amount: 0.5
+        Delay_Between_Shots: 1
+        Recoil_Amount: 0
         Projectile_Amount: 1
         Projectile_Type: arrow
         Projectile_Speed: 1
@@ -2561,18 +2562,13 @@ yousei:
     Explosions:
         Enable: true
         Knockback: 6
-        Ignite_Victims: 0
         Damage_Multiplier: 400
-        Enable_Friendly_Fire: true
         Enable_Owner_Immunity: true
-        Explosion_No_Damage: false
         Explosion_Potion_Effect: WITHER-5-2
         Explosion_No_Grief: true
         Explosion_Radius: 20
-        Explosion_Incendiary: false
-        Explosion_Delay: 0
-        On_Impact_With_Anything: true
         Projectile_Activation_Time: 0
+        On_Impact_With_Anything: true
         Sounds_Shooter: PISTON_RETRACT-1-2-0
         Sounds_Victim: PISTON_RETRACT-1-2-0
         Sounds_Explode: PISTON_RETRACT-1-2-0
@@ -2580,4 +2576,4 @@ yousei:
     Particles:
         Enable: true
         Particle_Terrain: true
-        Particle_Player_Shoot: block_break-133,block_break-95,smoke  
+        Particle_Player_Shoot: block_break-133,block_break-95,smoke    
