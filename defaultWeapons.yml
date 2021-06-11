@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@tsutitire 
+d0w0b
+/
+tsgun-serverguns
+forked from tsutitire/tsgun-serverguns
+0
+01
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+tsgun-serverguns/defaultWeapons.yml
+@d0w0b
+d0w0b Update defaultWeapons.yml
+Latest commit afa29c0 1 minute ago
+ History
+ 2 contributors
+@d0w0b@tsutitire
+2587 lines (2578 sloc)  76.6 KB
+  
 
 TS-93_殲滅光線超重砲:
     Item_Information:
@@ -568,8 +599,8 @@ krpg:
         Enable: true
         Explosion_No_Grief: true
         On_Impact_With_Anything: true
-        Explosion_Radius: 2
-        Damage_Multiplier: 20
+        Explosion_Radius: 4
+        Damage_Multiplier: 70
     Extras:
         One_Time_Use: false
 flashbang:
@@ -2585,71 +2616,3 @@ rorsch:
         Enable: true
         Particle_Terrain: true
         Particle_Player_Shoot: block_break-41
-thow:
-    Item_Information:
-        Item_Name: "&bサウザンドレイン &f&l/&c ソード・オブ・ホグニ&f"
-        Item_Type: 276
-        Item_Lore: "&c&l種別(&e&lmagic＆sword&c&l)|&c&l機構(&e&l???&c&l)|&c&l特殊弾(&e&lsword&c&l)"
-        Melee_Attachment: swordof
-        Sounds_Acquired: BAT_TAKEOFF-1-1-0
-    Shooting:
-        Right_Click_To_Shoot: true
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 1
-        Projectile_Amount: 1
-        Projectile_Type: snowball
-        Projectile_Speed: 70
-        Projectile_Damage: 2
-        Bullet_Spread: 0.5
-        Sounds_Shoot: entity_player_attack_sweep-2-2-2,entity_enderdragon_shoot-2-2-1,entity_horse_step_wood-2-2-1,item_armor_equip_iron-2-2-0,item_armor_equip_chain-2-2-0,item_armor_equip_chain-2.5-2-0,entity_wither_hurt-0.2-2-0,entity_generic_death-1-2-1,entity_wither_skeleton_ambient-1-2-1,entity_blaze_shoot-1-3-0
-    Reload:
-        Enable: true
-        Reload_Amount: 50
-        Reload_Duration: 35
-        Sounds_Reloading:  block_enchantment_table_use-2-0-0,block_enchantment_table_use-2-0-2,block_enchantment_table_use-2-0-4,block_enchantment_table_use-2-0-5,ENTITY_BLAZE_AMBIENT-2-2-1,entity_blaze_burn-2-0-0, entity_item_break-2-2-0,entity_item_break-2-2-1,entity_item_break-2-2-2,entity_item_break-2-2-3,entity_item_break-2-2-4,entity_item_break-2-2-5,entity_item_break-2-2-6,entity_item_break-2-2-7,entity_item_break-2-2-8,entity_item_break-2-2-9,entity_item_break-2-2-10,,block_enchantment_table_use-1-2-0,block_enchantment_table_use-2-2-0,block_enchantment_table_use-2-2-1,block_enchantment_table_use-2-2-2,block_enchantment_table_use-2-2-3,block_enchantment_table_use-2-2-4,block_enchantment_table_use-2-2-5,block_enchantment_table_use-2-2-6,block_enchantment_table_use-2-2-8,block_enchantment_table_use-1-2-5,block_enchantment_table_use-1-2-10,block_enchantment_table_use-2-2-9,block_enchantment_table_use-2-2-7,block_enchantment_table_use-2-2-10
-    Firearm_Action:
-        Type: slide
-        Open_Duration: 5
-        Close_Duration: 5
-        Sound_Open:  entity_item_break-2-2-0,entity_item_break-2-2-1,entity_item_break-2-2-2,entity_item_break-2-2-3,entity_item_break-2-2-4,entity_item_break-2-2-5,entity_item_break-2-2-6,entity_item_break-2-2-7,entity_item_break-2-2-8,entity_item_break-2-2-9,entity_item_break-2-2-10,,block_enchantment_table_use-1-2-0,block_enchantment_table_use-2-2-0,block_enchantment_table_use-2-2-1,block_enchantment_table_use-2-2-2,block_enchantment_table_use-2-2-3,block_enchantment_table_use-2-2-4,block_enchantment_table_use-2-2-5,block_enchantment_table_use-2-2-6,block_enchantment_table_use-2-2-8,block_enchantment_table_use-1-2-5,block_enchantment_table_use-1-2-10,block_enchantment_table_use-2-2-9,block_enchantment_table_use-2-2-7,block_enchantment_table_use-2-2-10
-        Sound_Close: block_enchantment_table_use-2-0-0,block_enchantment_table_use-2-0-2,block_enchantment_table_use-2-0-4,block_enchantment_table_use-2-0-5
-    Abilities:
-        Reset_Hit_Cooldown: true
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: SHOOT_ARROW-1-2-0
-swordof:
-    Item_Information:
-        Item_Name: "&eswordof"
-        Item_Type: 288
-        Item_Lore: "&eあたっちめんと"
-        Melee_Mode: true
-        Sounds_Acquired: block_enchantment_table_use-0.2-2-0,block_enchantment_table_use-0.2-0-0,entity_player_attack_sweep-1-3-2,entity_player_attack_nodamage-0-0-4
-        Remove_Unused_Tag: true
-swordof:
-        Enable: true
-        Durability_Loss_Per_Hit: 3
-        Sounds_Blocked: GLASS-2-2-0
-        Sounds_Break: ITEM_BREAK-2-1-0
-        swordof:
-    Item_Information:
-        Item_Name: "&eswordof"
-        Item_Type: 286
-        Item_Lore: "&eあたっちめんと"
-        Melee_Mode: true
-        Sounds_Acquired: 
-        Hidden_From_List: true
-    Shooting:
-        Cancel_Left_Click_Block_Damage: true
-        Cancel_Right_Click_Interactions: true
-        Delay_Between_Shots: 1
-        Projectile_Damage: 4
-    Particles:
-        Enable: true
-        Particle_Hit: BLOCK_BREAK-55
-    Hit_Events:
-        Enable: true
-        Sounds_Shooter: block_enchantment_table_use-0.2-2-0,block_enchantment_table_use-0.2-0-0,entity_player_attack_sweep-1-3-2,entity_player_attack_nodamage-0-0-4
-        
-
