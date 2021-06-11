@@ -1,7 +1,7 @@
 
-TS-93_殲滅光線超重砲:
+TS-93殲滅光線超重砲:
     Item_Information:
-        Item_Name: "&4&lTS-93_殲滅光線超重砲"
+        Item_Name: "&4&lTS-93殲滅光線超重砲"
         Item_Type: 417
         Item_Lore: "&e&4&lTS-93型殲滅光線超重砲|&4&l全消滅|&e"
         Sounds_Acquired: BAT_TAKEOFF-1-1-0
